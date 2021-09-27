@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Website Layout | sandy</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="menu">
+            <div class="logo">
+                <a href="#">My Dear comrade</a>
+            </div>
+            <ul>
+                <li><a href="#">Love</a></li>
+                <li><a href="#">caring</a></li>
+                <li><a href="#">friendship</a></li>
+                <li><a href="#">pretty</a></li>
+                <li><a href="#">Beautiful</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="img"></div>
+    <div class="center">
+        <div class="title">Happy Birthday</div>
+        <div class="sub_title">Vaishu</div>
+        <img src="img3.jpg" class="img3-btn" width="20%">
+        <img src="img6.png" class="img6-btn" width="10%" id="icon">
+    </div>
+    </div>
+    <audio id="mysong">
+    <source src="song.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        var mysong = document.getElementById("mysong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function() {
+            mysong.play();
+        }
+    </script>
+
+
+
+</body>
+
+</html>
